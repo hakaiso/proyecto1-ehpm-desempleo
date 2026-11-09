@@ -1,0 +1,11 @@
+.venv/
+data/raw/
+data/processed/
+*.sav
+*.dta
+*.parquet
+.Rhistory
+.env
+__pycache__/
+.ipynb_checkpoints/
+Referencias/
