@@ -1,6 +1,7 @@
 .venv/
-data/raw/
-data/processed/
+data/
+db/*.duckdb
+db/*.wal
 *.sav
 *.dta
 *.parquet

@@ -42,7 +42,7 @@ import pyreadstat
 # ---------------------------------------------------------------------------
 RAIZ = Path(__file__).resolve().parent.parent
 RAW = RAIZ / "data" / "raw"
-OUT = RAIZ / "data" / "processed"
+OUT = RAIZ / "data" / "interim"
 OUT.mkdir(parents=True, exist_ok=True)  # crea la carpeta si no existe
 
 
