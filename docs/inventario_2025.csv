@@ -1,0 +1,343 @@
+variable,etiqueta,dtype,pct_na,n_unique
+HOGAR,Identificador,float64,0.0,7870
+DOMINIO,Dominio,float64,0.0,5
+DEPTO,Departamento,float64,0.0,16
+COR_PRE,Corpre,float64,0.0,1327
+NUM_REC,Recorrido,float64,0.0,27
+NUM_HOG,Numero de hogar dentro de la vivienda,float64,0.0,3
+V01,Tipo de vivienda,float64,0.4,5
+V02,¿Cual es el  material predominante en la construcción de las paredes?,float64,0.4,8
+V02OTRO,Otro material de las paredes,str,0.0,47
+V03,¿Cual es el  material predominante en el piso?,float64,0.4,8
+V03OTRO,Otro material en el piso,str,0.0,16
+V04,¿Cual es el  material predominante en el techo?,float64,0.4,11
+V04OTRO,Otro material en el techo,str,0.0,25
+V05,¿El agua que utiliza en su vivienda la obtiene PRINCIPALMENTE de:,float64,0.4,9
+V05OTRA,Otra fuente de agua,str,0.0,83
+V06,¿Donde obtiene el agua?,float64,0.4,4
+V07,¿Qué tipo de alumbrado utiliza en la vivienda?,float64,0.4,8
+V07OTRO,Otro tipo de alumbrado,str,0.0,59
+V08,¿Como eliminan la basura en esta vivienda?,float64,0.5,8
+V08OTRA,Otra forma de eliminar la basura,str,0.0,61
+V09,Sin incluir la cocina y los baños ¿Cuantas piezas tiene esta vivienda?,float64,0.5,11
+V10,Su vivienda es:,float64,0.4,7
+V11,"Si pusiera su vivienda en alquiler, ¿cuanto cree que le pagarían por mes?",float64,28.8,87
+V12,¿Cuantos grupos de personas que compran y cocinan sus alimentos por separado viven en esta vivienda?,float64,0.4,10
+H01_1,1. Refrigeradoras,float64,0.0,6
+H01_2,2. Estufas de 4 hornillas,float64,0.0,5
+H01_3,3. Televisor,float64,27.4,1
+H01_4,4. Servicio de televisión por cable,float64,0.0,6
+H01_5,5. Radios o Radio grabadoras,float64,65.8,1
+H01_6,6. Equipos de Sonido,float64,0.0,5
+H01_7,7. Teléfono fijo o residencial,float64,97.1,1
+H01_8,8. Carro,float64,0.0,6
+H01_9,9. Motocicleta,float64,0.0,6
+H01_10,10. Bicicletas de adulto,float64,0.0,5
+H01_11,11. Computadora,float64,85.3,1
+H01_12,12. Aire acondicionado,float64,0.0,6
+H02,En que pieza o sitio de la vivienda cocina los alimentos este hogar:,float64,0.0,5
+H03,La pieza o sitio para cocinar es de uso:,float64,0.7,2
+H04,¿Cual es  el principal combustible que utilizan para cocinar en este hogar?,float64,0.7,5
+H04OTRO,Otro combustible para cocinar,str,0.0,4
+H05,¿Que tipo de estufa emplea principalmente en su hogar para cocinar?,float64,0.7,8
+H06,¿Tiene algún tipo de servicio sanitario letrina?,float64,0.0,2
+H07,¿Qué tipo de servicio sanitario o letrina tiene este hogar?,float64,0.0,9
+H07OTRO,Otro tipo de servicio sanitario,str,0.0,15
+H08,¿El uso del servicio sanitario es:,float64,4.9,2
+H09,¿Cuantas piezas utiliza este hogar para dormir?,float64,0.0,7
+H010,¿Este hogar ha sido beneficiado con el Bono o una Transferencia Monetaria condicionadas de la Red Solidaria,float64,0.0,2
+H011_MES,¿En que fecha recibió el ultimo desembolso? Mes,float64,89.6,12
+H011_ANIO,¿En qué fecha recibió el último desembolso ?Año,float64,89.6,4
+H012,¿De cuanto fue el último desembolso?,float64,89.6,49
+H013,¿Cuantos desembolsos recibió en el año 2024?,float64,89.6,5
+TOTPER,¿Cuántas personas en total durmieron y comieron durante los últimos 6 meses en el hogar?,float64,0.0,13
+SEN01,¿Ha recibido el subsidio de la energía eléctrica que da el Gobierno a los que consumen menos o igual de 150 KWh?,float64,0.0,2
+SEN02,¿Cómo lo valora?,float64,70.4,4
+SEN03,¿En que utiliza el dinero que se ahorra por el subsidio a la electricidad?,float64,70.4,4
+SEN03_OTROS,SEN03_Otros,str,0.0,57
+SEN04,"¿Cómo valora el subsidio a los combustibles (gasolinas, diésel o LPG)  que el gobierno de la republica otorga?",float64,0.1,3
+ME01,"¿Alguna persona que vivía en este hogar, se encuentra viviendo en otro país?",float64,0.0,3
+ME01PAIS,¿En qué país?,str,0.0,12
+ME01HUSA,¿Cuantos hombres viven en Estados Unidos?,float64,85.5,7
+ME01MUSA,¿Cuantas mujeres viven en Estados Unidos?,float64,85.5,7
+ME01HESP,¿Cuantos hombres viven en España?,float64,97.5,3
+ME01MESP,¿Cuantos mujeres viven en España?,float64,97.5,5
+ME01HMEX,¿Cuantos hombres viven en México?,float64,99.7,3
+ME01MMEX,¿Cuantos mujeres viven en México?,float64,99.7,3
+ME01HCA,¿Cuantos hombres viven en Centroamérica?,float64,99.7,3
+ME01MCA,¿Cuantos mujeres viven en Centroamérica?,float64,99.7,3
+ME01HOTRO,¿Cuantos hombres viven en Otro país?,float64,99.5,4
+ME01MOTRO,¿Cuantos mujeres viven en Otro país?,float64,99.5,4
+ME02,Algún miembro de este hogar recibió remesas el mes pasado,float64,0.0,3
+NPER,Orden,float64,0.0,15
+RELA_J,Relación con el jefe del hogar,float64,0.0,10
+EDAD,Edad,float64,1.0,104
+SEXO,Sexo,float64,0.0,2
+CIVIL,Estado civil,float64,0.0,6
+ED02,¿Está matriculado(a) para recibir clases este año en un centro educativo?,float64,3.8,2
+ED03,¿Asiste actualmente a algún centro educativo/ O de forma virtual?,float64,3.8,2
+ED04,¿Cuál es la razón principal por la que no está estudiando en este año?,float64,28.0,16
+ED04ESP,ED04. Especifique,str,0.0,174
+ED05,¿Cuál es el  nivel  educativo más alto alcanzado ?,float64,28.0,12
+ED05_GRADO,ED05. Grado,float64,100.0,0
+ed06_cod,Codigo de la carrera que estudió,float64,83.0,260
+ED07,¿Finalizó sus estudios?,float64,95.2,2
+ED08,¿Cuál es su último grado o año aprobado?,float64,39.8,10
+ED09,¿A través de qué sistema estudió?,float64,38.7,11
+ED10,¿Cuál es el nivel educativo en el que estudia actualmente?,float64,75.8,11
+ED11,¿Está repitiendo el año?,float64,81.2,2
+ED11A,¿Recibe merienda escolar?,float64,81.2,2
+ED11B,¿Cuantos dias recibió clases el mes pasado?,float64,81.2,26
+ed12_cod,Codigo de la carrera que estudia,float64,94.7,168
+ED13,¿Cuál es el año o grado que cursa actualmente 2025?,float64,75.9,10
+ED14,¿A través de qué sistema estudia?,float64,75.8,11
+ED15,¿Se matriculó en algún centro educativo el año anterior? (Año 2024),float64,14.5,2
+ED16,¿Cuál es el nivel educativo en que se matriculó el año anterior? (Año 2024),float64,77.0,11
+ED17,"¿Cuál es el año ó grado, en que se matriculó el año pasado? (Año 2024)",float64,79.2,9
+ED18,"El centro de educación en el que estudiaba, ¿era público o privado?",float64,79.2,2
+ED19,¿Aprobó el año académico (año pasado)? (Año 2024),float64,79.2,3
+ED20,¿Cuál fue la razón principal por la que se retiró?,float64,99.9,10
+ED20ESP,ED20. Especifique,str,0.0,2
+TIC01,"¿Durante el mes pasado, utilizó una computadora?",float64,7.2,2
+TIC02,"En los últimos 12 meses,  ¿hizo llamadas nacionales o internacionales vía internet?",float64,7.2,3
+TIC03,"Durante los últimos 3 meses, ¿tuvo acceso a internet?",float64,7.2,3
+TIC04,"Durante los últimos 3 meses, ¿con qué frecuencia utilizó internet:",float64,43.2,4
+AT05_1,En su casa,float64,46.0,1
+AT05_2,En un cyber-café o negocio de Internet,float64,99.7,1
+AT05_3,En su trabajo,float64,93.5,1
+AT05_4,"En la escuela, colegio o universidad",float64,98.6,1
+AT05_5,Casa de un familiar / amigo/ casa de otra persona,float64,97.4,1
+AT05_6,"Hotel, restaurante o negocio con Red Inalámbrica",float64,99.3,1
+AT05_7,Red pública (Parques u otro lugar Comunitario),float64,99.7,1
+AT05_8,Otro,float64,98.0,1
+AT06_1,"Comunicación (Llamadas nacionales e internacionales, comunicación por correo electrónico o chat, redes sociales)",float64,51.1,1
+AT06_2,Busqueda de Información( noticias o navegación por la web en general),float64,87.3,1
+AT06_3,"Compras, contratación o pedido de bienes o de servicios",float64,98.6,1
+AT06_4,"Operaciones de banca electrónica (Interbanca o servicios financieros, pago de servicios, transferencias )",float64,97.1,1
+AT06_5,"Educación formal y actividades de capacitación (Clases virtuales, investigar o hacer tareas)",float64,89.0,1
+AT06_6,"Entretenimiento personal (Uso / descarga de videojuegos, películas, música o programas informáticos etc )",float64,64.6,1
+AT06_7,"Actividades Laborales (trabajo desde casa, venta de productos en línea)",float64,94.8,1
+AT06_8,Otra razón:,float64,99.7,1
+TIC07, ¿Qué equipo utiliza PRINCIPALMENTE para conectarse a Internet?,float64,43.2,6
+TIC08,¿A través de que medio/servicio se conecta PRINCIPALMENTE a Internet?,float64,43.2,7
+TIC09,¿Tiene teléfono celular?,float64,7.2,2
+CA501,"Durante la semana pasada, ¿trabajó o realizó alguna actividad económica durante AL MENOS UNA HORA?",float64,7.2,2
+CA502,"Por este trabajo que realizó la semana pasada, ¿recibió o recibirá algún pago o ganancia en dinero o en especies?",float64,59.8,2
+CA503,"La semana pasada,  ¿realizó DURANTE AL MENOS UNA HORA alguna de las siguientes actividades A CAMBIO DE UN PAGO O GANANCIAS, en dinero o en especies:",float64,44.9,10
+CA504,¿Tiene algún trabajo remunerado o negocio propio del que se ausentó temporalmente la semana pasada y al que próximamente volverá?,float64,45.9,2
+CA505,¿Por qué motivo no trabajó la semana pasada?,float64,99.0,11
+CA505ESP,Especifique,str,0.0,23
+CA506,"Durante este periodo en que no trabajó, ¿estuvo recibiendo pago o ganancias en dinero o en especies?",float64,99.3,2
+CA507,¿De cuánto tiempo es la duración de la ausencia de este puesto de trabajo? (desde que se retiró hasta que vuelva),float64,99.4,4
+CA508,"Durante la semana pasada, le ayudó a ALGUN FAMILIAR a realizar alguna ACTIVIDAD ECONOMICA o trabajó en el negocio, empresa, finca de un FAMILIAR sin que le paguen?",float64,46.7,2
+CA508A," El familiar con el que trabajó la semana pasada, ¿produce principalmente para vender o produce principalmente para el autoconsumo?",float64,97.9,2
+CA501VER,Verifique la respuesta de la pregunta 501 y marque el resultado,float64,48.3,2
+CA509,Entonces el trabajo que realizó la semana pasada sin pago lo hizo como:,float64,98.8,5
+CA509A," En los ULTIMOS TRES meses, ¿cuánto fue su INGRESO PROMEDIO MENSUAL POR GANANCIA por la parte que vendio para su producción?",float64,98.9,23
+CA509B," En los ULTIMOS TRES meses, ¿cuál fue el VALOR PROMEDIO MENSUAL que retiró de su producción para el consumo del hoga? (Alimentos,  leche, lácteos, etc.)",float64,98.9,111
+CA510,Desea conseguir un trabajo remunerado o establecer su propia empresa o negocio?,float64,48.3,2
+CA511,"Si en la SEMANA PASADA  hubiese conseguido trabajo o clientes, para obtener un pago o ganancia en dinero o en especies, ¿estaba disponible para trabajar?",float64,48.8,5
+CA512,"¿Buscó trabajo o trató de establecer su propio negocio o finca, durante las últimas cuatro semanas?",float64,48.8,2
+CA513,¿Por qué no buscó trabajo ni trató de establecer su propio negocio o finca en las últimas cuatro semanas?,float64,51.1,9
+CA514,¿Entonces actualmente…,float64,51.1,10
+CP514_OTRA,Otra,str,0.0,175
+CA515,¿Qué hizo principalmente para buscar trabajo o establecer su propio negocio o finca?,float64,97.6,9
+CA_515_OTRO,Otro,str,0.0,5
+CA516TIEMPO,"¿Cuánto tiempo tiene de estar buscando trabajo continuamente, o tratando de establecer su propio negocio o finca? TIEMPO",float64,97.6,28
+CA516DSM,Dias/semana/meses,float64,97.6,3
+CA517,¿Ha trabajado antes?,float64,97.6,2
+CA518,¿Cuánto tiempo tiene sin trabajar? CANTIDAD,float64,98.1,22
+CA518TIEMPO,¿Cuánto tiempo tiene sin trabajar? TIEMPO,float64,98.1,4
+CA519,¿Cuántas ocupaciones desempeñó la semana pasada? / ¿De cuántas ocupaciones estuvo ausente la semana pasada?,float64,58.5,2
+CA520,¿Desea cambiar alguna de las ocupaciones que actualmente tiene?,float64,58.5,3
+CA521,¿Por qué motivo desea cambiar de ocupación?,float64,91.2,8
+CA522,"Durante la semana pasada, ¿hubiera querido trabajar más horas (en su mismo trabajo o en otro) a cambio de remuneración o ganancias en dinero o especies?",float64,58.5,3
+CA523,"Si durante la semana pasada hubiera tenido la oportunidad de trabajar más horas (en su mismo trabajo o en otro),  las hubiera podido trabajar?",float64,93.5,4
+CA524,¿Cuántas horas adicionales a la SEMANA estaría dispuesto a trabajar?,float64,94.8,39
+CA525,"Durante las últimas cuatro semanas, ¿estuvo buscando trabajo activamente?",float64,94.8,2
+O01_CODIGO,Codigo de rama de actividad principal,float64,58.6,887
+O02_CODIGO,Codigo de ocupacion principal,float64,58.6,348
+OC_605_LUNES,LUNES,float64,58.5,21
+OC_605_MARTES,MARTES,float64,58.5,21
+OC_605_MIERCOLES,MIERCOLES,float64,58.5,21
+OC_605_JUEVES,JUEVES,float64,58.5,22
+OC_605_VIERNES,VIERNES,float64,58.5,21
+OC_605_SABADO,SABADO,float64,58.5,22
+OC_605_DOMINGO,DOMINGO,float64,58.5,21
+OC606,"La semana pasada, ¿trabajo más o menos horas que las que trabaja normalmente en esta ocupación?",float64,58.5,4
+OC607,¿Cuántas horas más (menos) trabajó la semana pasada con respecto a las que trabaja normalmente?,float64,97.9,45
+OC608,Incluyendose [nombre..] ¿Cuántas personas trabajan PERMANENTEMENTE en,float64,58.5,4
+OC_608_CUANTAS,¿CUANTAS?,float64,58.5,104
+OC609,"En esta ocupacion, trabaja como:",float64,58.5,11
+OC610,¿Quién paga el ISR correspondiente a los ingresos de,float64,98.2,4
+OC611,¿Quién decide el horario de trabajo o la duración de su jornada laboral de,float64,98.2,3
+OC612,"¿Quién decide la forma, periodicidad y forma de pago de",float64,98.2,4
+OC613,¿De quien depende la seguridad social y el plan de jubilaciones de,float64,98.2,3
+OC614,"¿Los ingresos de son periódicos en forma de salario, por producto o dependen de cuánto produzca o venda",float64,98.2,3
+OC615,"En los ULTIMOS TRES meses, ¿cuál fue su INGRESO TOTAL recibido por la venta de los productos, tareas realizadas o servicios prestados?",float64,99.2,83
+OC616,"En esta ocupación, le pagan por:",float64,74.5,4
+OC617,¿Cuánto le pagan por,float64,76.2,249
+OC617_TIPO_DE_MONEDA,Tipo de moneda,float64,74.5,2
+OC618,¿Cuánto(as),float64,74.5,31
+OC619_ALIMENTOS,"El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por ALIMENTOS",float64,98.2,79
+OC619_HABITACION,"El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  HABITACION",float64,99.7,17
+OC619_ROPA_CALZADO,"El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  ROPA, CALZADO",float64,99.9,13
+OC619_TRANSPORTE,"El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  TRANSPORTE",float64,99.4,56
+OC619_COMISION,"El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  COMISION",float64,99.9,21
+OC619_BONIFICACION,"El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  BONIFICACION",float64,99.8,20
+OC619_PROPINAS,"El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  PROPINAS",float64,100.0,5
+OC619_HORAS_EXTRAS,"El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  HORAS EXTRAS",float64,99.7,38
+OC620,"En esta ocupación, tiene derecho a aguinaldo (decimo tercer salario)?",float64,74.5,2
+OC621,"En esta ocupación, tiene derecho a decimo cuarto salario?",float64,74.5,2
+OC622,"En esta ocupación, tiene derecho a bono de vacaciones?",float64,74.5,2
+OC623,"El bono de vacaciones, ¿de qué monto es?",float64,97.2,109
+OC624,"¿Recibe o se asigna un sueldo o salario por su trabajo en este negocio, finca o empresa?",float64,87.5,2
+OC625,¿De cuánto es su salario MENSUAL (sin descuentos o deducciones)?,float64,99.3,43
+OC626,"En esta ocupación, tiene derecho a aguinaldo (decimo tercer salario)?",float64,99.2,2
+OC627,"En esta ocupación, tiene derecho a decimo cuarto salario?",float64,99.2,2
+OC628,"En los ULTIMOS TRES meses, ¿cuánto fue su INGRESO PROMEDIO MENSUAL POR GANANCIA como empleador o cuenta propia en   su establecimiento o negocio?",float64,90.1,276
+OC629,"La actividad que realiza en esta ocupación, ¿es de tipo agropecuaria o no agropecuaria?",float64,87.5,2
+OC630,"En los ULTIMOS TRES meses, ¿cuál fue el VALOR PROMEDIO MENSUAL que retiró de su establecimiento o negocio en productos para uso propio o de su familia? (Alimentos,  leche, lácteos, etc.)",float64,98.2,170
+OC631,"En su última cosecha, cría de animales y productos derivados u otros, por la PARTE que ya VENDIÓ, ¿cuánto dinero recibió?",float64,98.0,197
+OC632,"De esa última cosecha, cría de animales y productos derivados u otros,  ¿cuál  es  el  VALOR de lo que NO VENDIÓ? Ya sea que lo usó o lo tiene guardado. (Granos, huevos,  frutas, lácteos, etc.)",float64,98.5,139
+OC633,¿Cuántas veces al año cosecha o cría animales y otros?,float64,97.4,15
+OC634,"¿Cuánto dinero invirtió en total en esa producción? (materiales, insumos, materias primas, pago de mano de obra, arriendo de tierra, alquiler de maquinaria, energía, transporte, etc.)",float64,97.7,137
+OC635,¿Cuántas veces al año hace esta inversión?,float64,97.4,15
+OC636,"En  los  ULTIMOS TRES meses,  ¿cuál  fue  el  VALOR PROMEDIO MENSUAL  que  retiró  de su  establecimiento   o   negocio  en productos para uso propio o de su familia? (Alimentos,  abarrotes, ropa, etc.)",float64,95.1,137
+OC637,"En los ULTIMOS TRES meses, ¿Cuál fue el VALOR PROMEDIO de los  gastos personales o del hogar cubiertos por el negocio? (comida, transporte, combustible, vivienda, etc.)",float64,92.5,198
+OC638,"En los ULTIMOS TRES meses, ¿cuál fue su INGRESO TOTAL recibido por la venta de los productos, bienes o servicios de su negocio?",float64,91.5,283
+OC639,"En los ULTIMOS TRES meses, ¿Cuánto dinero invirtió para el funcionamiento de su negocio? (Materiales, insumos, materias primas, mano de obra, alquileres, servicios, impuestos, etc.)",float64,92.8,257
+OS01_CODIGO,Codigo de rama de actividad secundaria,float64,97.7,163
+OS02_CODIGO,Codigo de ocupacion secundaria,float64,97.7,126
+OC_605_LUNES1,LUNES,float64,97.7,15
+OC_605_MARTES1,MARTES,float64,97.7,15
+OC_605_MIERCOLES1,MIERCOLES,float64,97.7,15
+OC_605_JUEVES1,JUEVES,float64,97.7,15
+OC_605_VIERNES1,VIERNES,float64,97.7,16
+OC_605_SABADO1,SABADO,float64,97.7,17
+OC_605_DOMINGO1,DOMINGO,float64,97.7,16
+OC6061,"La semana pasada, ¿trabajo más o menos horas que las que trabaja normalmente en esta ocupación?",float64,97.7,4
+OC6071,¿Cuántas horas más (menos) trabajó la semana pasada con respecto a las que trabaja normalmente?,float64,99.8,23
+OC6081,"Incluyéndose , ¿Cuántas personas trabajan PERMANENTEMENTE en",float64,97.7,4
+OC_608_CUANTAS1,¿CUANTAS?,float64,97.7,15
+OC6091,"En esta ocupacion, trabaja como:",float64,97.7,8
+OC6101,¿Quién paga el ISR correspondiente a los ingresos de,float64,99.9,3
+OC6111,¿Quién decide el horario de trabajo o la duración de su jornada laboral de,float64,99.9,2
+OC6121,"¿Quién decide la forma, periodicidad y forma de pago de",float64,99.9,3
+OC6131,¿De quien depende la seguridad social y el plan de jubilaciones de,float64,99.9,2
+OC6141,"¿Los ingresos de son periódicos en forma de salario, por producto o dependen de cuánto produzca o venda",float64,99.9,3
+OC6151,"En los ULTIMOS TRES meses, ¿cuál fue su INGRESO TOTAL recibido por la venta de los productos, tareas realizadas o servicios prestados?",float64,99.9,13
+OC6161,"En esta ocupación, le pagan por:",float64,99.6,4
+OC6171,¿Cuánto le pagan por,float64,99.6,43
+OC617_TIPO_DE_MONEDA1,Tipo de moneda,float64,99.6,2
+OC6181,¿Cuánto(as),float64,99.6,17
+OC619_ALIMENTOS1,"El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por ALIMENTOS",float64,100.0,8
+OC619_HABITACION1,"El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  HABITACION",float64,100.0,1
+OC619_ROPA_CALZADO1,"El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  ROPA, CALZADO",float64,100.0,0
+OC619_TRANSPORTE1,"El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  TRANSPORTE",float64,100.0,1
+OC619_COMISION1,"El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  COMISION",float64,100.0,0
+OC619_BONIFICACION1,"El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  BONIFICACION",float64,100.0,2
+OC619_PROPINAS1,"El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  PROPINAS",float64,100.0,1
+OC619_HORAS_EXTRAS1,"El mes pasado, ¿Recibió por su trabajo pagos en especie ó monetario, por  HORAS EXTRAS",float64,100.0,0
+OC6201,"En esta ocupación, tiene derecho a aguinaldo (decimo tercer salario)?",float64,99.6,2
+OC6211,"En esta ocupación, tiene derecho a decimo cuarto salario?",float64,99.6,2
+OC6221,"En esta ocupación, tiene derecho a bono de vacaciones?",float64,99.6,2
+OC6231,"El bono de vacaciones, ¿de qué monto es?",float64,100.0,7
+OC6241,"¿Recibe o se asigna un sueldo o salario por su trabajo en este negocio, finca o empresa?",float64,98.5,2
+OC6251,¿De cuánto es su salario MENSUAL (sin descuentos o deducciones)?,float64,100.0,12
+OC6261,"En esta ocupación, tiene derecho a aguinaldo (decimo tercer salario)?",float64,100.0,1
+OC6271,"En esta ocupación, tiene derecho a decimo cuarto salario?",float64,100.0,1
+OC6281,"En los ULTIMOS TRES meses, ¿cuánto fue su INGRESO PROMEDIO MENSUAL POR GANANCIA como empleador o cuenta propia en   su establecimiento o negocio?",float64,99.1,101
+OC6291,"La actividad que realiza en esta ocupación, ¿es de tipo agropecuaria o no agropecuaria?",float64,98.5,2
+OC6301,"En los ULTIMOS TRES meses, ¿cuál fue el VALOR PROMEDIO MENSUAL que retiró de su establecimiento o negocio en productos para uso propio o de su familia? (Alimentos,  leche, lácteos, etc.)",float64,99.5,74
+OC6311,"En su última cosecha, cría de animales y productos derivados u otros, por la PARTE que ya VENDIÓ, ¿cuánto dinero recibió?",float64,99.5,83
+OC6321,"De esa última cosecha, cría de animales y productos derivados u otros,  ¿cuál  es  el  VALOR de lo que NO VENDIÓ? Ya sea que lo usó o lo tiene guardado. (Granos, huevos,  frutas, lácteos, etc.)",float64,99.6,69
+OC6331,¿Cuántas veces al año cosecha o cría animales y otros?,float64,99.3,8
+OC6341,"¿Cuánto dinero invirtió en total en esa producción? (materiales, insumos, materias primas, pago de mano de obra, arriendo de tierra, alquiler de maquinaria, energía, transporte, etc.)",float64,99.4,73
+OC6351,¿Cuántas veces al año hace esta inversión?,float64,99.3,10
+OC6361,"En  los  ULTIMOS TRES meses,  ¿cuál  fue  el  VALOR PROMEDIO MENSUAL  que  retiró  de su  establecimiento   o   negocio  en productos para uso propio o de su familia? (Alimentos,  abarrotes, ropa, etc.)",float64,99.7,48
+OC6371,"En los ULTIMOS TRES meses, ¿Cuál fue el VALOR PROMEDIO de los  gastos personales o del hogar cubiertos por el negocio? (comida, transporte, combustible, vivienda, etc.)",float64,99.5,45
+OC6381,"En los ULTIMOS TRES meses, ¿cuál fue su INGRESO TOTAL recibido por la venta de los productos, bienes o servicios de su negocio?",float64,99.3,84
+OC6391,"En los ULTIMOS TRES meses, ¿Cuánto dinero invirtió para el funcionamiento de su negocio? (Materiales, insumos, materias primas, mano de obra, alquileres, servicios, impuestos, etc.)",float64,99.5,68
+OIH01_LPS,Pension en Lempiras,float64,99.9,29
+OIH01_US,Pension en Dolares,float64,100.0,0
+OIH02_LPS,Jubilacion en Lempiras,float64,99.2,71
+OIH02_US,Jubilacion en Dolares,float64,100.0,1
+OIH03_LPS,Alquileres en Lempiras,float64,99.4,51
+OIH03_US,Alquileres en Dolares,float64,100.0,0
+OIH04,Descuento del adulto mayor en Lempiras,float64,98.6,80
+OIH05_LPS,Pension por alimento/divorcio en Lempiras,float64,99.8,28
+OIH05_US,Pension por alimento/divorcio en Dolares,float64,100.0,4
+OIH06_LPS,Ayudas familiares Lempiras,float64,92.4,113
+OIH06_US,Ayudas familiares en Dolares,float64,100.0,8
+OIH06_LPS_ESP,Ayudas familiares en Lempiras Especies,float64,96.8,104
+OIH06_US_ESP,Ayudas familiares en Dolares Especies,float64,100.0,9
+OIH07_LPS,Ayudas particulares en Lempiras,float64,99.0,65
+OIH07_US,Ayudas particulares en Dolares,float64,100.0,4
+OIH07_LPS_ESP,Ayudas particulares en Lempiras Especies,float64,99.0,60
+OIH07_US_ESP,Ayudas particulares en Dolares Especies,float64,100.0,5
+OIH08,Alimentacion (Merienda) escolar en Lempiras,float64,91.0,140
+OIH09,"Bolson, utilies escolares en Lempiras Especies",float64,99.1,28
+OIH10,Uniformes escolares en Lempiras Especies,float64,99.9,9
+OIH11,Becas en Lempiras,float64,99.9,21
+OIH12_LPS,Remesas del exterior en Lempiras,float64,92.6,172
+OIH12_US,Remesas del exterior en Dolares,float64,99.7,21
+OIH12_LPS_ESP,Remesas del exterior Lempiras Especies,float64,99.2,48
+OIH12_US_ESP,Remesas del exterior en Dolares Especies,float64,100.0,5
+OIH13,Bono Esperanza para personas con discapacidad,float64,100.0,1
+OIH14,Bono de Oro para personas adultas mayores,float64,99.9,2
+OIH15,Bono tecnologico,float64,99.5,42
+OIH16,Bono Rosa (Cancer mama),float64,100.0,1
+OIH17,Subsidios de energia electrica,float64,95.0,188
+OIH18,Subsidios de combustible,float64,98.7,149
+OIH19_LPS,Otros programas de gobierno,float64,99.7,38
+OIH20_LPS,Bono Red Solidaria en Lempiras,float64,99.9,3
+OIH20_LPS_ESP,Bono Red Solidaria en especies,float64,100.0,0
+OIH21_LPS,Otros en Lempiras,float64,99.7,55
+OIH21_LPS_ESP,Otros en Lempiras Especies,float64,99.8,35
+OI002,¿Qué destino le dio a los ingresos de las REMESAS que usted recibió en los últimos 3 meses:,str,0.0,66
+OI002_OTROS,Otros,str,0.0,31
+OI003,¿En cuál de los aspectos mencionados destinó MAS dinero?,float64,92.3,10
+OI004,En los ultimos 12 meses con que frecuencia recibe remesas?,float64,92.3,5
+FACTOR,Factor de expansion,float64,0.0,42
+domi,Dominio,float64,0.0,4
+UR,Area,float64,0.0,2
+cambio,Tipo de cambio del dolar,float64,0.0,1
+nivel,Nivel educativo,float64,3.8,6
+anosest,Años de estudio,float64,18.0,26
+Totpervi,Total de personas de la vivienda,float64,0.0,13
+CONDACT,Condicion de actividad,float64,27.0,3
+TIPINAC,Fuerza de trabajo potencial,float64,69.5,3
+estrab,Estudia y trabaja,float64,53.4,4
+CATEGOP,Categoría ocupación principal,float64,58.5,7
+RAMAOP,Rama de actividad de la ocupacion principal,float64,58.0,23
+OCUPAOP,Ocupación principal,float64,58.0,12
+RAMAOS,Rama de actividad de la ocupacion secundaria,float64,97.7,17
+OCUPAOS,Ocupacion secundaria,float64,97.7,9
+SALMIN,Salario minimo,float64,59.5,32
+NSALMIN,Numero de salarios minimos,float64,59.5,6
+NUMSALMIN,Numero de salarios minimos,float64,58.5,7
+ACTIVIDA,Sub ocupacion,float64,59.5,3
+TOTHRSOP,Total horas trabajadas en la ocupacion principal,float64,58.5,111
+CATEGOS,Categoria ocupacional de la ocupacion secundaria,float64,59.5,7
+ytraop,Ingreso por trabajo de la ocupacion principal,float64,64.3,876
+ytraos,Ingreso por trabajo de la ocupacion secundaria,float64,98.3,201
+ytrab,Ingreso por trabajo total,float64,64.1,970
+yotrf,Ingreso por otras fuentes total,float64,29.2,1472
+ytothg,Ingreso total del hogar,float64,73.3,3049
+yperhg,Ingreso percapita de los hogares,float64,73.3,3666
+quintil,Quintil de ingreso de los hogares,float64,72.6,6
+yhpens,Ingreso por pension a nivel de hogar,float64,99.6,29
+yhjubi,Ingreso por jubilacion a nivel de hogar,float64,97.7,74
+yhAlqu,Ingreso por alquiler a nivel de hogar,float64,98.2,52
+yhOtros,Ingreso por otros a nivel de hogar,float64,73.0,457
+yhayuf,Ingreso por ayuda familiar a nivel de hogar,float64,74.8,262
+yhayup,Ingreso por ayuda particular a nivel de hogar,float64,93.7,111
+yhReme,Ingreso por remesas a nivel de hogar,float64,77.0,298
+yheduc,Ingreso por educacion a nivel de hogar,float64,68.0,199
+yhbono,Ingreso por bono a nivel de hogar,float64,97.5,46
+ytrabhg,Ingreso por trabajo a nivel de hogar,float64,77.4,1281
+yotrfhg,Ingreso por otras fuentes a nivel de hogar,float64,81.0,1472
+ymophg,Ingreso por monetario ocupacion principal a nivel de hogar,float64,78.5,710
+Pobreza,Pobreza a nivel de hogar,float64,73.3,3
+nbi,Necesidades basicas insatisfechas,float64,0.0,4
