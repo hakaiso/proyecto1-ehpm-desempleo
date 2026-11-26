@@ -1,0 +1,19 @@
+﻿indicador,ronda_INE,valor_INE,estimacion_propia,definicion_propia,discrepancias,diferencia,coincide
+PET,jul-2025,7363421.0,7363421.3,cond_act no nulo (15 años o más),,0.3,sí
+Fuerza de trabajo,jul-2025,4286430.0,4286430.0,ocupados + desocupados,,-0.0,sí
+Ocupados,jul-2025,4075415.0,4075415.4,cond_act = Ocupado,,0.4,sí
+Desocupados,jul-2025,211015.0,211014.6,cond_act = Desocupado,,-0.4,sí
+TDA %,jul-2025,4.9,4.9,desocupados / PEA,,0.0,sí
+TGP %,jul-2025,58.2,58.2,PEA / PET,,0.0,sí
+Asalariados,jul-2025,2441067.0,2441067.0,doméstico + privado + público,,0.0,sí
+Subocup. tiempo % (variable subocup),jul-2025,8.0,8.0,variable oficial de la base,,0.0,sí
+Subocup. ingresos % (variable subocup),jul-2025,33.4,33.4,variable oficial de la base,,-0.0,sí
+Subocup. tiempo % (regla del documento),jul-2025,8.0,6.8,menos de 40 h y desea más horas,D01 D02 D03 D07,-1.2,no
+Subocup. ingresos % (regla del documento),jul-2025,33.4,39.5,40 h o más e ytrab < salmin,D01 D02 D04 D05 D06,6.1,no
+"Ingreso medio mensual, nacional (L.)",jul-2025,9682.0,9912.9,"ytrab, ocupados con ingreso",D22,230.9,no
+"Ingreso medio mensual, urbano (L.)",jul-2025,11725.0,12002.0,"ytrab, ocupados con ingreso",D22,277.0,no
+"Ingreso medio mensual, rural (L.)",jul-2025,6681.0,6863.1,"ytrab, ocupados con ingreso",D22,182.1,no
+"Ingreso medio mensual, sector público (L.)",jul-2025,18483.0,18987.2,"ytrab, empleados públicos",D22,504.2,no
+"Ingreso medio mensual, sector privado (L.)",jul-2025,9776.0,9914.7,"ytrab, empleados privados",D22,138.7,no
+"Informalidad % A (piso, aproximación propia)",nov-2024,,42.8,no es empleado privado ni público,D12 D14 D16 D21,,n/a
+Informalidad % B (aproximación propia),nov-2024,74.8,76.6,A + privados sin aguinaldo ni catorceavo,D12 D13 D14 D21,1.8,no

@@ -1,0 +1,19 @@
+﻿id,tema,ine_dice,base_muestra,magnitud,prioridad,estado,decision
+D01,Subempleo: umbral de horas,Visible <40 h; invisible >=40 h,subocup corta en 44 h sobre TOTHRSOP; etiqueta de numsalmin dice 36 h,"Regla del doc: 6,8% / 39,6%; corte 44 h: 8,3% / 32,6%; oficial 8,0% / 33,4%",Alta,Abierta,Cifra principal = subocup oficial; regla del documento solo como contraste
+D02,Subempleo: medida de horas,"Horas habituales, ocupación principal más secundaria",Solo TOTHRSOP (principal); no hay variable de horas secundarias,No replicable al pie de la letra,Media,Abierta,Usar horas_principal como aproximación
+D03,Subempleo visible: definición interna,El doc habla de la semana de referencia y de horas habituales,,Ambigüedad del documento,Baja,Abierta,Usar TOTHRSOP
+D04,Subempleo invisible: ingreso,Ingresos mensuales (ocupación principal y secundaria),"ytraop (principal) captura el 100% de los invisibles oficiales; ytrab, 99,4%",24 casos,Baja,Cerrada,Usar ytraop
+D05,Anomalía en 40 horas exactas,,85 invisibles oficiales y 24 visibles de más a exactamente 40 h; oc606 no lo explica,109 personas (~10% de los de 40 h),Media,Abierta,Documentar
+D06,Salario mínimo de referencia,Promedio mensual por rama y área,salmin varía por persona (9.053 a 18.036),Por verificar,Media,Abierta,Usar salmin de la base
+D07,desea_mas_horas: No sabe,No consta en el documento revisado,"12,1% de los ocupados; el INE no los cuenta como subocupados",Cota inferior,Media,Cerrada,Tratar como no subocupado
+D08,Educación: nivel alcanzado vacío,ED05 = nivel más alto alcanzado,ED05 vacío para estudiantes actuales (1.929 casos) y 225 con No sabe; el nivel del INE mide el que cursan,"786.449 personas (10,7% del PET)",Media,Abierta,Mantener Sin dato con dos causas
+D09,Educación: Pre-básica,INE (variable nivel) la agrupa en Sin nivel,Agrupación original la ponía en Básica,17.548 personas,Baja,Abierta,Alinear con el INE (aplazado)
+D10,Departamentos,18 códigos en las etiquetas del .sav,16 con registros (sin Gracias a Dios ni Islas de la Bahía),Todo el PET está en 16,Media,Abierta,Confirmar cobertura en el documento
+D11,Etiquetas del .sav,,"Erratas (Cortes, Intubucá, Isla de la Bahía, Diverdificado)",,Baja,Cerrada,Corregidas en departamento de base_limpia
+D12,Informalidad: método,"INE 2024: ISR, contabilidad, registro, tamaño, contrato y previsión social",Módulo no confirmado en la base de julio 2025; proxy B usa aguinaldo y catorceavo,"B 76,6% frente a 74,8% del INE (otra ronda)",Alta,Abierta,B como aproximación; A como piso
+D13,Informalidad por sexo,"INE 2024: hombres 77,3%; mujeres 70,3%","B: hombres 77,8%; mujeres 74,8%","Mujeres +4,5 pp",Media,Abierta,Documentar
+D14,Informalidad: ronda de la encuesta,Módulo en noviembre 2024 (LXXXII),Base de julio 2025 (LXXXIII),No comparable estrictamente,Alta,Abierta,Solo orden de magnitud
+D15,Documento INE de informalidad: inconsistencias,"p. 10: 70,3% y 65% frente a 73,0% para 2022; LXXXII frente a LXXVII; tamaño de 5 frente a 10",,,Baja,Abierta,Citar con cautela
+D16,Categoría Empleador o patrono,Aparece en el documento de informalidad 2024,No existe en la base 2025; probablemente dentro de Cuenta propia,"Cuenta propia = 30,5% de los ocupados",Media,Abierta,Confirmar en el documento metodológico
+D17,Ocupación infantil,PET = 15 años o más,306 niños de 5 a 14 años con categoría ocupacional,306 casos,Baja,Cerrada,Bandera trabajo_infantil
+D18,TDA por sexo (nota de prensa),"Prensa: 3,8% y 5,8% (fuente no localizada)","Nuestro cálculo: 3,7% y 6,8%","Los valores de prensa no son compatibles con el 4,9% nacional",Baja,Por verificar,Revisar la fuente
